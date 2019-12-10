@@ -1,0 +1,22 @@
+package assignment;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/DisplayEmployeeServlet")
+public class DisplayEmployeeServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		Employee employee = new Employee();
+		employee.setName(request.getParameter("name"));
+		employee.setGender(request.getParameter("gender"));
+		employee.setDateOfBirth(new SimpleDateFormat("dd/MM/yyyy").parse(request.getParameter("dateOfBirth")));
+	}
+}

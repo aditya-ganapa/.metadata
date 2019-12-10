@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Cognizant</title>
+
+<style>
+label{
+ width:10px;
+ }
+</style>
+
+</head>
+<body>
+
+<h2>Personal details</h2>
+
+<form>
+
+<label>Name</label> <input type="text" name="firstname"><br>
+<label>Gender</label>  <label for="male">Male</label> <input type="radio" name="gender" id="male" value="male" checked> <label for="female">Female</label> <input type="radio" name="gender" id="female" value="female"><br>
+<label>Home Town</label>   <select name="hometown">
+    <option value="newdelhi">New Delhi</option>
+    <option value="mumbai">Mumbai</option>
+    <option value="kolkata">Kolkata</option>
+    <option value="chennai">Chennai</option>
+    <option value="hyderabad">Hyderabad</option>
+   </select><br>
+<label>Address</label>     <textarea name="address" rows="3" cols="50"></textarea><br>
+<label>Skills</label>      Java <input type="checkbox" name="skills" value="java"> HTML <input type="checkbox" name="skills" value="HTML"> Oracle <input type="checkbox" name="skills" value="oracle"><br>
+<label>Password</label>    <input type="password" name="password"><br>
+           <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>

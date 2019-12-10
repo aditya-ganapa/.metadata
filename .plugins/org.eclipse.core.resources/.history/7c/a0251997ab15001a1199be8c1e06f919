@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<nav>
+	<p>
+		truYum
+		<img src="images/logo.jpg" alt="logo">
+		<a href="ShowMenuItemListAdmin">Menu</a>
+	</p>
+</nav>
+<section>
+	<h2>Edit Menu Item Status</h2>
+	<p class="edit-notification">Menu item details saved successfully</p>
+	
+	<p>Id of menu item moified: ${menuItemId}</p>
+	
+</section>
+<footer>
+	<p>Copyright &copy; 2019</p>
+</footer>
+</body>
+</html>

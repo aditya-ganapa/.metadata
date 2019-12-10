@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Movie Cruiser - Servlet and JSP">
+        <property name="context-root" value="Movie_Cruiser_-_Servlet_and_JSP"/>
+        <property name="java-output-path" value="/Movie Cruiser - Servlet and JSP/build/classes"/>
+    </wb-module>
+</project-modules>

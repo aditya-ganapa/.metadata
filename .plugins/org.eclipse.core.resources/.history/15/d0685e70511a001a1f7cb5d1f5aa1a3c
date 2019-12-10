@@ -1,0 +1,5 @@
+package org.com.util;
+
+public class DatabaseUtil {
+
+}

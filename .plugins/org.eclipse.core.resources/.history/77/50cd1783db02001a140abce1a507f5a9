@@ -1,0 +1,11 @@
+package OOPS;
+import java.util.Scanner;
+
+public class Test1 {
+	public static void main(String[] args) {
+		 String s="Collin|45678|20/11/2021";
+		 
+		 for(String s1:s.split("\\|"))
+			 System.out.println(s1);
+	}
+}

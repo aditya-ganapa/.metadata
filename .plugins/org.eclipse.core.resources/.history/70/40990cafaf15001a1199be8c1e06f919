@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<nav>
+	<p>
+		truYum
+		<img src="images/logo.jpg" alt="logo">
+	</p>
+</nav>
+<section>
+	<button href="login-admin.html">Admin</button>
+	<button><a href="login-customer.html">Customer</a></button>
+</section>
+<footer>
+	<p>Copyright &copy; 2019</p>
+</footer>
+</body>
+</html>

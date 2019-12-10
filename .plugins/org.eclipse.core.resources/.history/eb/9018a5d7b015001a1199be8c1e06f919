@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<nav>
+	<p>
+		truYum
+		<img src="images/logo.jpg" alt="logo">
+	</p>
+</nav>
+<section>
+	<h2>Edit Menu Item</h2>
+	<form name="loginAdminForm" onsubmit="return validateMenuItemForm()" method="post" action="EditMenuItem?menuItemId=<c:out value='${menuItem.id}'/>">
+		<label for="field-title">Username:</label><br><br>
+		<input type="text" id="field-title" name="title" value="<c:out value='${menuItem.name}'/>"><br><br>
+		<label for="field-password">Password:</label><br><br>
+		<input type="password" id="field-title" name="title" value="<c:out value='${menuItem.name}'/>">
+	</form>
+</section>
+<footer>
+	<p>Copyright &copy; 2019</p>
+</footer>
+</body>
+</html>

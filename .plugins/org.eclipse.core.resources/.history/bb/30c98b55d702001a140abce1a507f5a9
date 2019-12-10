@@ -1,0 +1,22 @@
+package OOPS;
+import java.util.Scanner;
+
+public class q5_Main {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Select the Card\n1.Payback Card\n2.Membership Card");
+		Scanner sc=new Scanner(System.in);
+		int choice=sc.nextInt();
+		System.out.println("Enter the Card Details:");
+		String cardDetails=sc.nextLine();
+		switch (choice) {
+		case 1:
+			
+			break;
+
+		default:
+			break;
+		}
+	}
+
+}

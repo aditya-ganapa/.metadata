@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Tue Dec 10 12:25:33 IST 2019
+org.eclipse.jst.jee.server\:JDBC_Web=C\:\\Users\\828561\\Desktop\\apache-tomcat-9.0.21-windows-x64\\apache-tomcat-9.0.21\\wtpwebapps\\JDBC_Web
+org.eclipse.jst.jee.server\:Movie\ Cruiser\ -\ Servlet\ and\ JSP=C\:\\Users\\828561\\Desktop\\apache-tomcat-9.0.21-windows-x64\\apache-tomcat-9.0.21\\wtpwebapps\\Movie Cruiser - Servlet and JSP
+org.eclipse.jst.jee.server\:ServletAndJspAssignment=C\:\\Users\\828561\\Desktop\\apache-tomcat-9.0.21-windows-x64\\apache-tomcat-9.0.21\\wtpwebapps\\ServletAndJspAssignment
+org.eclipse.jst.jee.server\:truYum\ -\ Servlet\ and\ JSP=C\:\\Users\\828561\\Desktop\\apache-tomcat-9.0.21-windows-x64\\apache-tomcat-9.0.21\\wtpwebapps\\truYum - Servlet and JSP
+org.eclipse.jst.jee.server\:WebProject=C\:\\Users\\828561\\Desktop\\apache-tomcat-9.0.21-windows-x64\\apache-tomcat-9.0.21\\wtpwebapps\\WebProject
